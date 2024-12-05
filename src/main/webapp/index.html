@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII Art Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1><i class="fas fa-terminal"></i> ASCII Art Generator</h1>
+        <div class="theme-toggle">
+            <input type="checkbox" id="theme-toggle-checkbox" class="theme-toggle-checkbox">
+            <label for="theme-toggle-checkbox" class="theme-toggle-label">
+                <svg class="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </label>
+        </div>
+    </header>
+    <main>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <div class="file-upload">
+                <input type="file" id="imageUpload" name="image" accept="image/*" required>
+                <label for="imageUpload" class="file-upload-label">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <span>Choose an image</span>
+                </label>
+            </div>
+            <button type="submit" class="generate-btn">
+                <i class="fas fa-magic"></i> Generate ASCII Art
+            </button>
+        </form>
+        <div id="result">
+            <div class="result-header">
+                <h2>Generated ASCII Art</h2>
+                <button id="copyButton" class="copy-btn" title="Copy ASCII Art">
+                    <i class="fas fa-copy"></i> Copy
+                </button>
+            </div>
+            <pre id="asciiArt"></pre>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 ASCII Art Generator. Created with <i class="fas fa-heart"></i> by Devdatta Mudliar.</p>
+    </footer>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <display-name>ASCII Art Generator</display-name>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>AsciiArtServlet</servlet-name>
+        <servlet-class>com.devdattamudliar.asciiart.AsciiArtServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AsciiArtServlet</servlet-name>
+        <url-pattern>/AsciiArtServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
