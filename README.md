@@ -26,8 +26,8 @@ A web-based ASCII Art Generator that transforms your images into ASCII art. This
 
 ## Demo
 
-![Screenshot of Actual Working ASCII Art Generator]([https://i.imgur.com/pv4Yol4.png](https://i.imgur.com/pv4Yol4.png))
-![Screenshot of Actual Working ASCII Art Generator]([https://i.imgur.com/YtlKCPs.png](https://i.imgur.com/YtlKCPs.png)))
+![Screenshot of Actual Working ASCII Art Generator](https://i.imgur.com/pv4Yol4.png))
+![Screenshot of Actual Working ASCII Art Generator](https://i.imgur.com/YtlKCPs.png))
 
 ## Prerequisites
 
