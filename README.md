@@ -130,6 +130,21 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
+> [!NOTE]
+> This ASCII Art Generator works best with high-contrast images. For optimal results, try using images with clear outlines and distinct features.
+
+> [!TIP]
+> Experiment with different image sizes to achieve varied ASCII art effects. Larger images may produce more detailed ASCII art, while smaller images can create interesting abstract patterns.
+
+> [!IMPORTANT]
+> Make sure you have Java 11 or later installed on your system before attempting to run this application. The project won't compile or run correctly without the proper Java version.
+
+> [!WARNING]
+> Uploading very large image files may result in longer processing times and could potentially crash the application. It's recommended to use images smaller than 5MB for the best experience.
+
+> [!CAUTION]
+> This application processes images on the server. Be mindful of the images you upload, as they will be temporarily stored on the server during processing. Avoid uploading sensitive or personal images.
+
 ## Acknowledgements
 
 - [Font Awesome](https://fontawesome.com) for the icons
