@@ -129,6 +129,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
+## Additional Notes
+
 > [!NOTE]
 > This ASCII Art Generator works best with high-contrast images. For optimal results, try using images with clear outlines and distinct features.
 
