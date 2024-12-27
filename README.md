@@ -46,7 +46,7 @@ Follow these steps to set up the ASCII Art Generator locally:
 2. Clone the repository:
 
 ```
-git clone [https://github.com/dxvzz/ASCII-Art-Generator.git](https://github.com/dxvzz/ASCII-Art-Generator.git)
+git clone https://github.com/dxvzz/ASCII-Art-Generator.git
 ```
 
 3. Navigate to the project directory:
